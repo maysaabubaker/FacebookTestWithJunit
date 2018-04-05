@@ -6,7 +6,6 @@
 <pathelement location="./MyLibraries/junit-4.12.jar"/>
 <pathelement location="./MyLibraries/selenium-server-standalone-3.11.0.jar"/>
 <pathelement location="./MyLibraries/hamcrest-core-1.3.jar"/>
-
 </path>
 <target name="compile">
 <mkdir dir="${result.javaclasses.dir}"/>
@@ -25,6 +24,8 @@
 </classpath>
 <formatter type="brief" usefile="false"/>
 <batchtest >
+	
+
 <fileset dir="${result.javaclasses.dir}" >
 <include name="**/*/FacebookTestWithJunit.class"/>
 </fileset>
