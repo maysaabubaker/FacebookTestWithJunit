@@ -31,7 +31,7 @@ System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
 		driver.get("http://facebook.com");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("maysaabubaker@gmail.com");
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("05923115162081997maza");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("123123123");
 		driver.findElement(By.xpath(".//*[@id='u_0_2']")).click();
 	}
 
